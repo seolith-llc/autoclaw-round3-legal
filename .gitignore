@@ -1,0 +1,19 @@
+# Agent / tool state (attachments are copied into the prompt log instead)
+.zwork/
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.venv/
+__pycache__/
+*.pyc
+
+# Logs and local env
+*.log
+.env
+.env.local
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
