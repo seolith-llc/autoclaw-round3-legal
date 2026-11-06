@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contract Review Board - Skyline Device Cloud MSA</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e2e; --line:#2a3450; --ink:#e8edf7; --muted:#93a0b8;
+    --red:#ff6b6b; --amber:#ffb454; --green:#4ade80; --blue:#5b8cff; --gold:#e8c268;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Segoe UI",system-ui,-apple-system,sans-serif;padding:28px}
+  .wrap{max-width:1180px;margin:0 auto}
+  header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:16px}
+  h1{font-size:22px;letter-spacing:.3px}
+  .sub{color:var(--muted);font-size:13px;margin-top:6px}
+  .badge{background:linear-gradient(135deg,#2b3a5c,#1b2438);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-size:12px;color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .n{font-size:30px;font-weight:700}
+  .kpi .t{color:var(--muted);font-size:12px;margin-top:4px}
+  .kpi.crit .n{color:#ff4d4d} .kpi.high .n{color:var(--red)} .kpi.med .n{color:var(--amber)} .kpi.all .n{color:var(--blue)}
+  .cols{display:grid;grid-template-columns:1.45fr 1fr;gap:14px;margin-top:14px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .panel h2{font-size:13px;color:var(--gold);margin-bottom:12px;letter-spacing:1.2px;text-transform:uppercase}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{color:var(--muted);text-align:left;font-weight:600;padding:8px 6px;border-bottom:1px solid var(--line)}
+  td{padding:8px 6px;border-bottom:1px solid rgba(42,52,80,.5);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  .lv{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700;white-space:nowrap}
+  .lv.c{background:rgba(255,77,77,.2);color:#ff8080}
+  .lv.h{background:rgba(255,107,107,.14);color:var(--red)}
+  .lv.m{background:rgba(255,180,84,.14);color:var(--amber)}
+  .code{font-family:Consolas,monospace;color:var(--blue);font-size:12px}
+  ul.clean{list-style:none}
+  ul.clean li{padding:7px 0;border-bottom:1px dashed rgba(42,52,80,.6);font-size:13px}
+  ul.clean li:last-child{border-bottom:none}
+  .tag{display:inline-block;background:rgba(91,140,255,.12);color:var(--blue);border-radius:6px;padding:2px 8px;font-size:11px;margin-right:6px}
+  footer{margin-top:16px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Contract Review Board</h1>
+      <div class="sub">Skyline Device Cloud Master Subscription Agreement &middot; Ohio law &middot; November 6, 2026 &middot; AutoClaw Legal Review</div>
+    </div>
+    <div class="badge">Legal Practice &middot; AutoClaw Round 3</div>
+  </header>
+
+  <div class="grid">
+    <div class="kpi all"><div class="n">24</div><div class="t">Issues identified</div></div>
+    <div class="kpi crit"><div class="n">6</div><div class="t">Critical</div></div>
+    <div class="kpi high"><div class="n">13</div><div class="t">High</div></div>
+    <div class="kpi med"><div class="n">5</div><div class="t">Medium</div></div>
+  </div>
+
+  <div class="cols">
+    <div class="panel">
+      <h2>Critical findings</h2>
+      <table>
+        <tr><th>Section</th><th>Issue</th><th>Severity</th></tr>
+        <tr><td class="code">5.2</td><td>Perpetual license to train models on factory-floor data</td><td><span class="lv c">Critical</span></td></tr>
+        <tr><td class="code">6.1</td><td>Security duty limited to "commercially reasonable"; no liability absent gross negligence</td><td><span class="lv c">Critical</span></td></tr>
+        <tr><td class="code">6.3</td><td>No data processing addendum; CCPA 1798.100(d) terms missing</td><td><span class="lv c">Critical</span></td></tr>
+        <tr><td class="code">3.2</td><td>Unilateral fee increase during the initial term</td><td><span class="lv c">Critical</span></td></tr>
+        <tr><td class="code">9.1</td><td>Cap at fees paid in 12 months, no carve-outs</td><td><span class="lv c">Critical</span></td></tr>
+        <tr><td class="code">15.1</td><td>Amendment by posting; continued use is acceptance</td><td><span class="lv c">Critical</span></td></tr>
+      </table>
+    </div>
+
+    <div class="panel">
+      <h2>Must fix before signature</h2>
+      <ul class="clean">
+        <li><span class="tag">1</span>Data license limited to hosting, no model training</li>
+        <li><span class="tag">2</span>Security program, 72-hour breach notice, CCPA addendum</li>
+        <li><span class="tag">3</span>Cap base plus gross-negligence and indemnity carve-outs</li>
+        <li><span class="tag">4</span>No amendment by posting</li>
+        <li><span class="tag">5</span>Ohio forum, no mandatory arbitration</li>
+      </ul>
+      <h2 style="margin-top:16px">Bottom line</h2>
+      <p style="font-size:13px;line-height:1.65">
+        Do not sign as drafted. The critical items are data-governance failures, not price terms.
+        The liability cap is aggressive but likely enforceable for commercial loss, so the
+        negotiation targets carve-outs and the cap base, not nullity.
+      </p>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:14px">
+    <h2>Workflow and deliverables</h2>
+    <table>
+      <tr><th>Step</th><th>Output</th><th>Detail</th></tr>
+      <tr><td class="code">01</td><td>Vendor draft</td><td>Provider's unmodified form, 15 clauses</td></tr>
+      <tr><td class="code">02</td><td>Redline</td><td>Word tracked changes: 27 insertions, 25 deletions, every edit a matched replace</td></tr>
+      <tr><td class="code">03</td><td>Clean revised draft</td><td>Countersignature-ready text</td></tr>
+      <tr><td class="code">04</td><td>Review memo</td><td>Clause-by-clause analysis, negotiation plan, open items</td></tr>
+      <tr><td class="code">05</td><td>Risk matrix</td><td>24 issues with authority, fix, disposition, owner</td></tr>
+      <tr><td class="code">06</td><td>Citation log</td><td>8 primary sources; records what was rejected as well as what was used</td></tr>
+      <tr><td class="code">07</td><td>Reusable checklist</td><td>12-point SaaS / data-platform review</td></tr>
+    </table>
+  </div>
+
+  <footer>
+    <span>Fictional sample. No real customer, contract, or personal data.</span>
+    <span>Sources: Cal. Civ. Code 1798.100, 1798.150; Cal. Bus. &amp; Prof. Code 17602; 15 U.S.C. 8403; UCC 2-302, 2-316, 2-719</span>
+  </footer>
+</div>
+</body>
+</html>

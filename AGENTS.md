@@ -1,5 +1,11 @@
 # amtocsoft-megagent
 
+## Deliverable language
+
+All deliverables for this project are written in **US English**: US spelling, US date and
+currency formats, ASCII-only file names. No CJK characters, including font definitions inside
+.docx packages (see `scripts/strip_cjk_fonts.py`).
+
 ## Prompt history (mandatory, every turn)
 
 Every user request and the response to it is written to `docs/prompts-history/` before the turn ends.
