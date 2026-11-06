@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>合同审查看板 · 工业设备远程运维数据平台服务合同</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171e2e; --line:#2a3450; --ink:#e8edf7; --muted:#93a0b8;
+    --red:#ff6b6b; --amber:#ffb454; --green:#4ade80; --blue:#5b8cff; --gold:#e8c268;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif;padding:28px}
+  .wrap{max-width:1180px;margin:0 auto}
+  header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:16px}
+  h1{font-size:22px;letter-spacing:.5px}
+  .sub{color:var(--muted);font-size:13px;margin-top:6px}
+  .badge{background:linear-gradient(135deg,#2b3a5c,#1b2438);border:1px solid var(--line);border-radius:10px;padding:8px 14px;font-size:12px;color:var(--gold)}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:18px}
+  .kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .n{font-size:30px;font-weight:700}
+  .kpi .t{color:var(--muted);font-size:12px;margin-top:4px}
+  .kpi.high .n{color:var(--red)} .kpi.mid .n{color:var(--amber)} .kpi.low .n{color:var(--green)} .kpi.all .n{color:var(--blue)}
+  .cols{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin-top:14px}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .panel h2{font-size:14px;color:var(--gold);margin-bottom:12px;letter-spacing:1px}
+  table{width:100%;border-collapse:collapse;font-size:12.5px}
+  th{color:var(--muted);text-align:left;font-weight:600;padding:8px 6px;border-bottom:1px solid var(--line)}
+  td{padding:8px 6px;border-bottom:1px solid rgba(42,52,80,.5);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  .lv{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700}
+  .lv.高{background:rgba(255,107,107,.15);color:var(--red)}
+  .lv.中{background:rgba(255,180,84,.15);color:var(--amber)}
+  .code{font-family:Consolas,monospace;color:var(--blue);font-size:12px}
+  ul.clean{list-style:none}
+  ul.clean li{padding:7px 0;border-bottom:1px dashed rgba(42,52,80,.6);font-size:13px}
+  ul.clean li:last-child{border-bottom:none}
+  .tag{display:inline-block;background:rgba(91,140,255,.12);color:var(--blue);border-radius:6px;padding:2px 8px;font-size:11px;margin-right:6px}
+  footer{margin-top:16px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between}
+  .bar{height:6px;border-radius:3px;background:#232c44;overflow:hidden;margin-top:8px}
+  .bar i{display:block;height:100%}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>合同审查看板</h1>
+      <div class="sub">《工业设备远程运维数据平台服务合同》 · 法域：中华人民共和国 · 2026-11-06 · AutoClaw 法律审查</div>
+    </div>
+    <div class="badge">Legal Practice · AutoClaw Round 3</div>
+  </header>
+
+  <div class="grid">
+    <div class="kpi all"><div class="n">20</div><div class="t">识别风险项</div></div>
+    <div class="kpi high"><div class="n">14</div><div class="t">高风险</div></div>
+    <div class="kpi mid"><div class="n">6</div><div class="t">中风险</div></div>
+    <div class="kpi low"><div class="n">0</div><div class="t">低风险</div></div>
+  </div>
+
+  <div class="cols">
+    <div class="panel">
+      <h2>高风险条款（节选）</h2>
+      <table>
+        <tr><th>条款</th><th>风险点</th><th>等级</th></tr>
+        <tr><td class="code">5.2</td><td>甲方数据全球免费不可撤销许可 + 模型训练</td><td><span class="lv 高">红线</span></td></tr>
+        <tr><td class="code">6.1</td><td>无个人信息委托处理协议</td><td><span class="lv 高">红线</span></td></tr>
+        <tr><td class="code">6.2</td><td>数据泄露“一切损失乙方不担责”</td><td><span class="lv 高">红线</span></td></tr>
+        <tr><td class="code">9.2</td><td>约定甲方不得请求调整违约金</td><td><span class="lv 高">写了也无效</span></td></tr>
+        <tr><td class="code">2.3 / 10.2</td><td>甲方不得解除合同</td><td><span class="lv 高">必改</span></td></tr>
+        <tr><td class="code">3.2</td><td>乙方单方调价自动适用</td><td><span class="lv 高">必改</span></td></tr>
+        <tr><td class="code">11.1</td><td>“乙方所在地仲裁委员会”机构不明</td><td><span class="lv 高">必改</span></td></tr>
+      </table>
+      <div class="bar"><i style="width:65%;background:linear-gradient(90deg,#ff6b6b,#ffb454)"></i></div>
+    </div>
+
+    <div class="panel">
+      <h2>签署前提 · 五项必改</h2>
+      <ul class="clean">
+        <li><span class="tag">1</span>删除 5.2 全球许可与模型训练授权</li>
+        <li><span class="tag">2</span>责任限额改为合同总额，删除 9.2 禁止调整</li>
+        <li><span class="tag">3</span>恢复甲方法定解除权（2.3 / 10.2）</li>
+        <li><span class="tag">4</span>签署附件二《个人信息委托处理协议》</li>
+        <li><span class="tag">5</span>管辖改甲方所在地法院</li>
+      </ul>
+      <h2 style="margin-top:16px">结论</h2>
+      <p style="font-size:13px;line-height:1.7;color:var(--ink)">
+        不建议按供应商原稿签署。13 条正文中 11 条含高风险；
+        数据与个人信息条款属合规红线，不能用价格交换；
+        “不得调整违约金”依最高法合同编通则解释第 64 条第 3 款直接不予支持。
+      </p>
+    </div>
+  </div>
+
+  <div class="panel" style="margin-top:14px">
+    <h2>交付物与核验链路</h2>
+    <table>
+      <tr><th>步骤</th><th>产出</th><th>说明</th></tr>
+      <tr><td class="code">01</td><td>供应商原稿</td><td>乙方格式合同，13 条</td></tr>
+      <tr><td class="code">02</td><td>修订对照稿（Word 修订模式）</td><td>24 处新增、3 处删除，作者“AutoClaw 法律审查”</td></tr>
+      <tr><td class="code">03</td><td>修订后清洁版</td><td>可直接用于回签</td></tr>
+      <tr><td class="code">04</td><td>审查备忘录</td><td>逐条定性 + 谈判优先级 + 遗留事项</td></tr>
+      <tr><td class="code">05</td><td>风险矩阵</td><td>20 项 × 等级 × 法条 × 建议 × 责任方</td></tr>
+      <tr><td class="code">06</td><td>引用核验日志</td><td>法规库宕机 → 官方原文核验，7 组来源链接</td></tr>
+      <tr><td class="code">07</td><td>可复用审查清单</td><td>SaaS / 数据服务合同 12 项</td></tr>
+    </table>
+  </div>
+
+  <footer>
+    <span>演示用虚构交易 · 不含真实客户信息</span>
+    <span>来源：民法典 / 合同编通则解释（法释〔2023〕13号）/ 个人信息保护法 / 数据安全法 · 全部附官方原文链接</span>
+  </footer>
+</div>
+</body>
+</html>
