@@ -28,7 +28,7 @@ Deadline in US Eastern: **November 20, 2026, 10:59 a.m. ET**.
 >
 > Two things the log caught that most reviews get wrong: the CCPA service-provider terms are in Cal. Civ. Code 1798.100(d), not (e); and 16 CFR Part 425 does not currently contain the click-to-cancel rule everyone cites it for.
 >
-> Deliverables: redline, memo, risk matrix, verification log, 12-point checklist.
+> Deliverables: redline, memo, risk matrix, six-state overlay, verification log, 12-point checklist.
 >
 > @AutoClawAIer #BuiltWithAutoClaw
 > Demo: [your public link]

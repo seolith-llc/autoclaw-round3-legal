@@ -185,7 +185,26 @@ Northwind (Ohio manufacturer, roughly 400 employees) is buying a three-year subs
 4. Confirm the SOC 2 report has been received and reviewed by security, not just promised in the contract.
 5. Decide whether Northwind will accept arbitration if Skyline insists; if yes, negotiate seat location and cost allocation.
 
-## 6. Sources
+## 6. Multi-state overlay: Virginia, DC, Maryland, Delaware, California, Texas
+
+Northwind operates in four jurisdictions and has remote staff in two more. That does not require six contracts, and it does not require six reviews. The Ohio choice-of-law clause selects one body of contract law. What changes state to state is the regulatory overlay, because those statutes attach by where the person lives, not by what the contract says.
+
+**The finding that shapes the DPA.** Five of the six comprehensive statutes exclude commercial and employment data from the definition of "consumer": Virginia ([59.1-575](https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-575/)), Maryland (14-4601(H)), Delaware (12D-102(8)), and Texas ([541.001(7)](https://capitol.texas.gov/tlodocs/88R/billtext/html/HB00004F.htm)) all carve out individuals acting in an employment context. California does not - CCPA covers employees and job applicants. Since the platform's personal data is badge numbers, operator names, and shift records, **California is the only jurisdiction where the workforce data in scope is protected data.** The DPA is therefore California-shaped, and the other states inherit it.
+
+| Jurisdiction | Regime | Applies to this deal? | Consequence |
+| --- | --- | --- | --- |
+| California | CCPA/CPRA | Yes - employees covered | 1798.100(d) terms required; 1798.150 creates statutory damages of $100-$750 per consumer per incident |
+| Virginia | VCDPA | Only if consumer data enters the platform | Processor duties in 59.1-579(B) set the template for the DPA |
+| Maryland | MODPA (eff. Oct 1, 2025) | Only if consumer data enters the platform | Employment carve-out; violation is a Consumer Protection Act violation |
+| Delaware | DPDPA | Below threshold today (35,000 consumers, or 10,000 plus 20% of revenue from sales) | Monitor if consumer-facing features ship |
+| Texas | TDPSA | Small-business exemption likely applies | Loses the exemption if sensitive data is sold |
+| District of Columbia | No comprehensive statute | n/a | Obligations come from the contract, the CPPA, and breach-notification law |
+
+**What this changes in the paper.** Three clauses, not fifty. Section 6.3 makes the DPA a condition precedent and writes the CCPA's five terms into it. Section 14.1 imposes the Virginia-style flow-down onto subcontractors, which is what 59.1-579(B)(5) requires. Deletion and return at termination is the one requirement still open; it belongs in Exhibit B rather than the main body, and is flagged in Section 5. Everything else is the same contract in every state.
+
+**What it does not change.** The liability, warranty, and forum analysis. Those run through Ohio law and do not vary by where an employee sits.
+
+## 7. Sources
 
 - [Cal. Bus. & Prof. Code section 17602 (automatic renewal)](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=17602)
 - [15 U.S.C. section 8403 (ROSCA)](https://www.law.cornell.edu/uscode/text/15/8403)

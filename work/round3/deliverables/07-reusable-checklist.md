@@ -31,3 +31,7 @@ Built from the Skyline review and generalized for any SaaS, data-platform, or de
 - Red-line items: 8, 9, 10, 12. These are governance failures, not price terms.
 - Trade items: 3, 4, 11. Concede one to hold the red-line items.
 - Always verify the authority, not the folklore. Two citations that circulate constantly and should be checked every time: the CCPA service-provider clause is section 1798.100(d), and 16 CFR Part 425 does not currently impose a general click-to-cancel duty.
+
+## Multi-state overlay
+
+If the customer has people in more than one state, do not draft a contract per state. Pick the law that governs the agreement, then attach a short overlay for the jurisdictions where people or data actually sit. In practice: check whether each state's privacy law covers employment data (California does; Virginia, Maryland, Delaware, and Texas do not), and let the strictest applicable regime set the DPA. The overlay workbook in this folder is the template.

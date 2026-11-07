@@ -76,6 +76,36 @@ Because no case-law database was reachable, this review cites **statutes and reg
 - **Verified text:** subsection (2) - where an exclusive or limited remedy "fail[s] of its essential purpose," remedy may be had as provided in the Act. Subsection (3) - consequential damages may be limited or excluded "unless the limitation or exclusion is unconscionable," and limitation for commercial loss "is not" prima facie unconscionable.
 - **Source:** [UCC 2-719](https://www.law.cornell.edu/ucc/2/2-719)
 
+### 2.9 Va. Code section 59.1-575 - VCDPA definitions
+
+- **Verified text:** "Consumer" means a natural person who is a resident of the Commonwealth acting only in an individual or household context. "It does not include a natural person acting in a commercial or employment context."
+- **Why it matters:** the platform's personal data is workforce data, so Virginia's substantive duties do not attach to it.
+- **Source:** [Va. Code 59.1-575](https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-575/)
+
+### 2.10 Va. Code section 59.1-579 - processor duties
+
+- **Verified text (section 59.1-579(B)):** the controller-processor contract must be binding and must set out "instructions for processing data, the nature and purpose of processing, the type of data subject to processing, the duration of processing, and the rights and obligations of both parties," and must require the processor to (1) bind personnel with a duty of confidentiality, (2) delete or return data at the controller's direction, (3) make available information demonstrating compliance, (4) allow reasonable assessments or provide an independent assessor's report, and (5) flow the obligations down to subcontractors by written contract.
+- **Use:** this is the template for Exhibit B and for Section 14.1.
+- **Source:** [Va. Code 59.1-579](https://law.lis.virginia.gov/vacode/title59.1/chapter53/section59.1-579/)
+
+### 2.11 Md. Code, Com. Law section 14-4601 et seq. - MODPA
+
+- **Status:** enacted as Senate Bill 541, ch. 455 (2024), effective October 1, 2025.
+- **Verified text:** the enactment clause requires "a controller that uses a processor to process the personal data of consumers to enter into a contract with the processor that governs the processor's data processing procedures," and makes a violation an unfair, abusive, or deceptive trade practice under the Maryland Consumer Protection Act. Section 14-4601(H) excludes an individual "acting in a commercial or employment context" from "consumer."
+- **Not verified:** the applicability threshold figure was truncated in the source read; the overlay therefore describes the threshold qualitatively rather than quoting a number.
+- **Source:** [2024 Maryland Laws, ch. 455 (SB 541)](https://mgaleg.maryland.gov/2024rs/Chapters_noln/CH_455_sb0541e.pdf)
+
+### 2.12 6 Del. C. sections 12D-102, 12D-103 - DPDPA
+
+- **Verified text:** section 12D-102(8) excludes an individual acting in a commercial or employment context from "consumer." Section 12D-103(a) applies the chapter to persons that controlled or processed the personal data of "not less than 35,000 consumers," or "not less than 10,000 consumers" while deriving "more than 20%" of gross revenue from selling personal data.
+- **Source:** [6 Del. C. ch. 12D](https://delcode.delaware.gov/title6/c012d/index.html)
+
+### 2.13 Tex. Bus. & Com. Code sections 541.001, 541.002 - TDPSA
+
+- **Verified text:** section 541.001(7) defines "consumer" as a resident "acting only in an individual or household context" and excludes "an individual acting in a commercial or employment context." Section 541.002(a) applies the chapter to a person that conducts business in Texas, processes or sells personal data, and "is not a small business as defined by the United States Small Business Administration," except as section 541.107 provides.
+- **Note:** the codified PDF on the Texas statutes site rendered as unreadable text; the enacted bill text on the Texas Legislature site was used instead, and the citation is to the codified chapter.
+- **Source:** [Tex. H.B. 4, 88th Leg. (enacted text)](https://capitol.texas.gov/tlodocs/88R/billtext/html/HB00004F.htm)
+
 ## 3. Claims deliberately not made
 
 | Tempting claim | Why it is absent |

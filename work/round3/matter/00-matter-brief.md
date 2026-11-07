@@ -24,6 +24,7 @@ All parties, fees, and clause language are fictional. No real customer, contract
 | deliverables/05-risk-matrix.xlsx | 24 issues, severity, authority, recommended fix, owner |
 | deliverables/06-citation-verification-log.docx / .md | Source-by-source verification, including negative findings |
 | deliverables/07-reusable-checklist.docx / .md | 12-point SaaS review checklist |
+| deliverables/08-state-overlay.xlsx | Six-jurisdiction overlay: CA, VA, MD, DE, TX, DC |
 | entry/08-submission-pack.md | Post copy, screenshot script, form fields |
 | entry/09-review-board.html | Single-page visual summary for screenshots |
 
