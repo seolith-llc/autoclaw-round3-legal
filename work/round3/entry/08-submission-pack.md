@@ -15,7 +15,7 @@ Deadline in US Eastern: **November 20, 2026, 10:59 a.m. ET**.
 - [ ] Follow @AutoClawAIer on X and screenshot the follow confirmation (required by the form).
 - [ ] Do **not** put your AutoClaw account email in the post.
 - [ ] Publish the post publicly and open the link in a logged-out browser to confirm it is visible.
-- [ ] Create a public demo link: push `work/round3/` to a public repo (GitHub/Gitee) or upload a zip to a share link.
+- [x] Public demo link: https://github.com/seolith-llc/autoclaw-round3-legal
 - [ ] State in the post that the matter is fictional.
 
 ## 3. X post
@@ -31,7 +31,7 @@ Deadline in US Eastern: **November 20, 2026, 10:59 a.m. ET**.
 > Deliverables: redline, memo, risk matrix, six-state overlay, verification log, 12-point checklist.
 >
 > @AutoClawAIer #BuiltWithAutoClaw
-> Demo: [your public link]
+> Demo: https://github.com/seolith-llc/autoclaw-round3-legal
 
 ## 4. Screenshot script
 
@@ -52,7 +52,7 @@ Deadline in US Eastern: **November 20, 2026, 10:59 a.m. ET**.
 | X profile URL | https://x.com/your-handle |
 | X post URL | copy after publishing |
 | Track | Legal Practice |
-| Product or demo URL | public repo or share link |
+| Product or demo URL | https://github.com/seolith-llc/autoclaw-round3-legal (release: /releases/latest) |
 
 ## 6. Self-check against the Outstanding criteria
 
